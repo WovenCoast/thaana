@@ -17,7 +17,17 @@ dependencies:
 import 'package:thaana/thaana.dart';
 ```
 
-## Example
+## Examples
+
+- Convert latin to thaana
+
+```dart
+String hello = "dhuniye";
+
+hello.convertLatinToThaana() // ދުނިޔެ
+```
+
+- Add thaana typing capabilities to a text field
 
 ```dart
 ThaanaTextField(
